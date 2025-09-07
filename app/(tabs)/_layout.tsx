@@ -36,8 +36,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Order History',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.right" color={color} />, // Use a history/chevron icon
         }}
       />
        <Tabs.Screen
@@ -45,6 +45,13 @@ export default function TabLayout() {
         options={{
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="cart"
+        options={{
+          title: 'Cart',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="cart.fill" color={color} />, // Use a cart icon
         }}
       />
     </Tabs>
