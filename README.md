@@ -1,6 +1,15 @@
-# Welcome to your Expo app 👋
+
+# Expo React Native Example App 👋
+
+This project is an ecommerce app example, used to stay up to speed with the latest React Native and Expo features. All data in the app is shown based on mocked JSON, making it ideal for prototyping, learning, and experimenting with best practices in the React Native ecosystem.
+
+---
+
+**Author:** Joel Fernandes
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
 
 ## Get started
 
@@ -10,10 +19,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+
+2. Start the app (choose your platform: iOS, Android, or Web)
 
    ```bash
    npx expo start
+   ```
+
+   To preview on the web, press `w` in the Expo CLI or run:
+
+   ```bash
+   npx expo start --web
    ```
 
 In the output, you'll find options to open the app in a
@@ -23,7 +39,9 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
+
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
 
 ## Get a fresh project
 
@@ -34,6 +52,18 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+
+## Why this repo?
+
+I use this repository to:
+
+- Try out the latest React Native and Expo features
+- Explore new Expo SDK releases
+- Test best practices and patterns
+- Quickly prototype UI/UX ideas
+
+---
 
 ## Learn more
 
